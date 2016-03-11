@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+}
+      
+header{
+	width: 100%;
+	padding: 1%;
+	background-color: #2196F3;
+}
+
+header h1{
+	color: white;
+}
+
+header p{
+	color: #bbdefb;
+}
+nav{
+	background-color: #1976d2;
+}
+
+footer.page-footer{
+	background-color: #212121;
+}
