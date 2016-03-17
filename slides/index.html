@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>reveal.js – The HTML Presentation Framework</title>
+
+        <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+        <meta name="author" content="Hakim El Hattab">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+        <!-- Code syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- Project css-->
+        <link rel="stylesheet" href="css/project.css">
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName('head')[0].appendChild(link);
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+
+        <div class="reveal">
+
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+
+                <section>
+                    <img src="images/team-open-mind-logo.jpg" alt="" height="900" style="margin-left: 50px">
+                </section>
+
+
+                <section>
+                    <img src="images/jobs-jpg.jpg" alt="" height="500">
+                    <p class="fragment">Steve Jobs</p>
+                </section>
+
+                <section>
+                    <img src="images/bill-gates.jpg" alt="" height="500">
+                    <p class="fragment">Bill Gates</p>
+                </section>
+
+                <section>
+                    <img src="images/dennis_ritchie.jpg" alt="">
+                    <p class="fragment">Dennis Ritchie</p>
+                </section>
+
+
+                <section>
+                    <img src="images/RMS--Richard-M--Stallman-eecue_29655_7d27_l.jpg" alt="" height="500">
+                    <p class="fragment">Richard Stallman</p>
+                </section>
+
+                <section>
+                    <img src="images/linus-torvalds.jpg" alt="" height="500">
+                    <p class="fragment">Linus Torvalds</p>
+                </section>
+
+                <section>
+                    <img src="images/Bjarne.jpg" alt="" height="500">
+                    <p class="fragment">Bjarne Stroustrup</p>
+                </section>
+
+                <section>
+                    <img src="images/guido_van_rossum.jpg" alt="" height="500">
+                    <p class="fragment">Guido Van Rossum</p>
+                </section>
+
+                <section>
+                    <img src="images/nass_mla7.jpg" alt="" height="500">
+                    <p class="fragment">Nass Mla7</p>
+                </section>
+
+                <section>
+                    <h1>Git Started with Github</h1>
+                </section>
+                
+                <section class="fragmented">
+                    <h1>Everyday workflow</h1>
+
+                    <ol>
+                        <li class="fragment">Create a file</li>
+                        <li class="fragment">Save it</li>
+                        <li class="fragment">Edit it</li>
+                        <li class="fragment">Save it again</li>
+                        <li class="fragment">etc.</li>
+                    </ol>
+                </section>
+
+                <section>
+                    <h1>File life</h1>
+                    <img src="images/file_life.png" alt="">
+                </section>
+
+                <section>
+                    <h1>Manual version control</h1>
+                    <img src="images/manual_vcs.png" alt="">
+                </section>
+
+
+                <section class="fragmented">
+                    <h1>Can we automate this?</h1>
+                    <p class="fragment">For each document version, we need to know</p>
+                    <ol>
+                        <li class="fragment"><strong>When</strong> the file was modified</li>
+                        <li class="fragment"><strong>What</strong> changed</li>
+                        <li class="fragment"><strong>Why</strong> it was modified</li>
+                    </ol>
+                </section>
+
+                <section>
+                    <h1>There’s more, teams</h1>
+                    <img src="images/new_memebres.png" alt="">
+                </section>
+
+                <section class="fragmented">
+                    <h1>And one more question</h1>
+                    <p class="who">For each document version, we need to know</p>
+                    <ol>
+                        <li class="who"><strong>When</strong> the file was modified</li>
+                        <li class="who"><strong>What</strong> changed</li>
+                        <li class="who"><strong>Why</strong> it was modified</li>
+                        <li class="fragment"><strong>Who</strong> did the change</li>
+                    </ol>
+                </section>
+
+                <section class="fragmented">
+                    <h1>The perfect tool</h1>
+                    <p>We want a tool that</p>
+                    <ol>
+                        <li class="fragment">tracks document version</li>
+                        <li class="fragment">keeps an history of document changes</li>
+                        <li class="fragment">foster team work</li>
+                    </ol>
+                </section>
+
+                <section>
+                    <img id="git-logo" src="images/git-logo%20copy.png" alt="">
+                </section>
+
+
+                <section>
+                    <h1>What is Git</h1>
+                    <p><strong>Git</strong> is a <em>Version Control System</em> that allows a team of people to work
+                        together, all using the same files.</p>
+                </section>
+
+
+                <section>
+                    <h1>Who Created Git ?</h1>
+                </section>
+
+                <section>
+                    <img src="images/linus-torvalds.jpg" alt="" height="500">
+                </section>
+
+                <section>
+                    <img src="images/companies-that-use-git.png" alt="">
+                </section>
+
+                <section>
+                    <h1>Setup</h1>
+                    <span>Linux : </span>
+                    <pre><code class="hljs">$ sudo apt-get install git</code></pre>
+                    <span>Windows : </span>
+                    <p>Download & install git at http://git-scm.com/</p>
+                </section>
+
+
+                <section>
+                    <pre>
+                        <span>Define a user name</span>
+                        <code class="hljs">$ git config --global user.name "Your Name”</code>
+
+                        <span>Define an email ccount</span>
+                        <code class="hljs">$ git config --global user.email "your@email.com"</code>
+
+                        <span>Check your git informations</span>
+                        <code class="hljs">$ git config -l</code>
+                    </pre>
+                </section>
+
+                <section>
+                    <pre>
+                        <span>Caustom Log</span>
+                        <code class="hljs">$ git config --global alias.lg "log --oneline --decorate --all --graph"</code>
+
+                        <span>Caustom Colors</span>
+                        <code class="hljs">$ git config --global color.ui true</code>
+
+                        <span>Check your git informations</span>
+                        <code class="hljs">$ git config -l</code>
+                    </pre>
+                </section>
+
+
+                <section>
+                    <pre>
+                        <span>Create a folder</span>
+                        <code class="hljs">$ mkdir myapp </code>
+
+                        <span>Move to that Folder</span>
+                        <code class="hljs">$ cd myapp</code>
+
+                        <span>Initialize git on that Folder</span>
+                        <code class="hljs">$ git init</code>
+
+                        <span>Create a file</span>
+                        <code class="hljs">$ touch index.html</code>
+                    </pre>
+                </section>
+
+
+                <section>
+                    <h1>Status</h1>
+                    <p>git can tell you if your folder has some modified files (dirty)</p>
+                    <pre><code class="hljs">$ git status</code></pre>
+                </section>
+
+                <section>
+                    <h1>Commit</h1>
+                    <p>Snapshot of your work</p>
+                    <img class="san-border-img" src="images/cam.png" alt="">
+                </section>
+
+
+                <section>
+                    <h1>How to commit ?</h1>
+
+                    <pre>
+                        <span>Add signle file</span>
+                        <code class="hljs">$ git add [file-name] </code>
+
+                        <span>Add all the files</span>
+                        <code class="hljs">$ git add --all</code>
+
+                        <span>Take a snapsshot (commit)</span>
+                        <code class="hljs">$ git commit -m "a message about this change"</code>
+                    </pre>
+
+                </section>
+
+                <section>
+                    <h1>Diff</h1>
+                    <p>if git status tells you something changed,
+                        you can inspect exactly what changed:</p>
+
+                    <pre>
+                        <code class="hljs">$ git diff</code>
+                        <code class="hljs">$ git diff [a_specific_file_or_folder]</code>
+                    </pre>
+                </section>
+
+
+                <section>
+                    <h1>Log</h1>
+                    <p>Show <strong>commit history</strong> with </p>
+                    <pre><code class="hljs">$ git log</code></pre>
+                </section>
+
+
+                <section>
+                    <h1>Branching</h1>
+                </section>
+
+                <section>
+                    <h2>One feature = One branch</h2>
+                </section>
+
+                <section>
+                    <h1>Branch</h1>
+                    <img src="images/g1.png" alt="">
+                    <pre><code class="hljs">$ git branch my-feature</code></pre>
+                </section>
+
+                <section>
+                    <h1>Branch</h1>
+                    <img src="images/g2.png" alt="">
+                    <pre>
+                        <code class="hljs">$ git checkout my-feature</code>
+                        <code class="hljs">$ git commit (x2)</code>
+                    </pre>
+                </section>
+
+                <section>
+                    <p>In the meantime, one commit happened in the master branch</p>
+                    <img src="images/g3.png" alt="">
+                    <pre>
+                        <code class="hljs">$ git checkout master</code>
+                        <code class="hljs">$ git commit (x2)</code>
+                    </pre>
+                </section>
+
+                <section>
+                    <h1>Merge</h1>
+                    <img src="images/g4.png" alt="" height="250">
+                    <pre>
+                        <code class="hljs">$ git checkout master</code>
+                        <code class="hljs">$ git diff master my-feature</code>
+                        <code class="hljs">$ git merge my-feature</code>
+                    </pre>
+                </section>
+
+
+                <section>
+                    <h1>Clean up</h1>
+                    <img src="images/g5.png" alt="">
+                    <pre><code class="hljs">$ git branch -d my-feature</code></pre>
+                </section>
+
+
+                <section>
+                    <h3>Let's share our project with the world</h3>
+                </section>
+
+                <section>
+                    <h1>but how to do it ?</h1>
+                </section>
+
+                <section>
+                    <img id="octocat" src="images/Octocat.png" alt="" height="400">
+                    <img src="images/GitHub_logo.png" alt="" height="200">
+                </section>
+
+
+                <section>
+                    <h1>Remote</h1>
+                </section>
+
+                <section>
+                    <img src="images/remote-host.png" alt="">
+                </section>
+
+                <section>
+                    <h1>We need a remote!</h1>
+                    <p>Go to GitHub, create a repo: https://github.com/new</p>
+
+                    <pre><code class="hljs">$ git remote add origin git@github.com:[username]/[project].git</code></pre>
+                </section>
+
+                <section>
+                    <h1>Push</h1>
+                    <p>Share the code with your team, and the world</p>
+                    <pre><code class="hljs">$ git push origin master</code></pre>
+
+                </section>
+
+                <section>
+                    <h1>Pull</h1>
+                    <pre><code class="hljs">$ git pull origin master</code></pre>
+                </section>
+
+                <section>
+                    <h1>Fork</h1>
+                </section>
+
+                <section>
+                    <h1>Thank you</h1>
+                </section>
+
+                <script src="lib/js/head.min.js"></script>
+                <script src="js/reveal.js"></script>
+
+                <script>
+                    // Full list of configuration options available at:
+                    // https://github.com/hakimel/reveal.js#configuration
+                    Reveal.initialize({
+                        controls: true,
+                        progress: true,
+                        history: true,
+                        center: true,
+
+                        transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+                        // Optional reveal.js plugins
+                        dependencies: [{
+                            src: 'lib/js/classList.js',
+                            condition: function () {
+                                return !document.body.classList;
+                            }
+                        }, {
+                            src: 'plugin/markdown/marked.js',
+                            condition: function () {
+                                return !!document.querySelector('[data-markdown]');
+                            }
+                        }, {
+                            src: 'plugin/markdown/markdown.js',
+                            condition: function () {
+                                return !!document.querySelector('[data-markdown]');
+                            }
+                        }, {
+                            src: 'plugin/highlight/highlight.js',
+                            async: true,
+                            callback: function () {
+                                hljs.initHighlightingOnLoad();
+                            }
+                        }, {
+                            src: 'plugin/zoom-js/zoom.js',
+                            async: true
+                        }, {
+                            src: 'plugin/notes/notes.js',
+                            async: true
+                        }]
+                    });
+                </script>
+
+    </body>
+
+</html>

@@ -1,0 +1,28 @@
+.who {
+    color: #8f8f8f;
+}
+
+#git-logo {
+    border: 10px solid transparent;
+    box-shadow: none;
+    height: 500px;
+}
+
+.san-border-img {
+    border: 0px solid transparent;
+    box-shadow: none;
+    height: 300px;
+}
+code {
+    display: inline;
+    all-space-treatment: none;
+}
+
+.octocat {
+    border: none;
+    box-shadow: none;
+}
+
+.info {
+    float: left;
+}
