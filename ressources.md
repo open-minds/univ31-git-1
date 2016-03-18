@@ -11,6 +11,6 @@
 ##Your Contribution 
 ### Mr Hafid Benhadria [^_^] (https://www.facebook.com/events/987498071327247/permalink/994198667323854/)
 Un outil de quizz pour réviser ce qu'on a appris dont le cheat sheet sur Git:
-[Memrise: GIT] (http://www.memrise.com/courses/english/?q=)
+[Memrise: GIT] (http://www.memrise.com/courses/english/?q=git)
 et ceci pour pratiquer sur la command line directement:
 [Code School: Try Git] (https://try.github.io/levels/1/challenges/1 )"
