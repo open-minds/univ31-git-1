@@ -8,6 +8,7 @@
 * [Derek Banas(YouTube) : Git] (https://www.youtube.com/watch?v=r63f51ce84A&list=PLGLfVvz_LVvQHO1PfyscjIPkNJjgHsLyH)
 * [Udacity: How to Use Git and GitHub] (https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 * [Git Arabic] (https://www.arabicgit.com/)
+* [Git Simple guide (Arabic) الدّليل البسيط] (https://www.arabicgit.com/simple-guide/)
 
 ##Your Contribution 
 ### Mr Hafid Benhadria [^_^] (https://www.facebook.com/events/987498071327247/permalink/994198667323854/)
